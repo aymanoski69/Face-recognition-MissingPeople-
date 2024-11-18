@@ -36,20 +36,9 @@ Install the required Python libraries with:
 
   cd Face-recognition-MissingPeople-
   
-  4. Folder Structure
-The project folder should look like this:
-Face-recognition(MissingPeople)/
-│
-├── dataSet/                # Directory to store user images
-├── trainer/                # Directory to store the trained model
-├── haarcascade_frontalface_default.xml  # Haar Cascade model for face detection
-├── App.py                 # Main application code
-├── datasetCreator.py                 #  datasetCreator code only 
-├── detector.py                 # detector code only
-├── trainner.py                 # model trainner code
-└── README.md               # Project documentation
+  
 
-6. Run the Application
+  3. Run the Application
   Run the application using:
     python APP.py
 

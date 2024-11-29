@@ -2,7 +2,7 @@ import sys
 import os
 import cv2
 import numpy as np
-from PyQt5.QtWidgets import (
+from PyQt5.QtWidgets import ( 
     QApplication, QMainWindow, QPushButton, QVBoxLayout, QFileDialog, QWidget, QInputDialog, QLabel, QMessageBox
 )
 

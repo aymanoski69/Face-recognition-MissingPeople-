@@ -1,0 +1,120 @@
+/* Login Form Container */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Label Styles */
+  label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input Field Styling */
+  input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Focused Input Field */
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Error Message Styling */
+  p {
+    color: black;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styling */
+  /* Button Styling */
+button {
+  width: 80px; /* Increase width for better text fit */
+  height: 80px; /* Set equal width and height for circular shape */
+  background-color: #007bff;
+  color: white;
+  font-size: 16px; /* Adjust font size */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 50%; /* Circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Center button horizontally */
+}
+
+/* Hover Effect on Button */
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Focus Effect on Button */
+button:focus {
+  outline: none;
+}
+
+  
+  /* For Mobile View */
+  @media (max-width: 600px) {
+    .login-container {
+      padding: 20px;
+    }
+  
+    input, button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .error{
+    color: black;
+  }
+  .signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }

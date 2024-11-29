@@ -1,0 +1,9 @@
+.footer-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white; /* Adjust based on your footer background color */
+}
+
+.footer-icons i:hover {
+    color: #007bff; /* Change icon color on hover */
+}

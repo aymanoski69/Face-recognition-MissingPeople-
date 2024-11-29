@@ -1,0 +1,39 @@
+/* Styling for Log In and Sign Up links */
+.special-link {
+  border: 2px solid white;   
+  padding: 5px 15px;          /* Add padding for space inside the button */
+  border-radius: 5px;         /* Rounded corners */
+  margin-left: 10px;          /* Add spacing between the links */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.special-link:hover {
+  background-color: white;    /* Change background to white on hover */
+  color: black;               /* Change text color to black on hover */
+}
+
+/* Other navbar styles remain the same */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: black;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .special-link:hover {
+  color: black;
+}
+.navbar-toggler {
+  padding: 0.20rem 0.5rem; /* Adjust the padding as necessary */
+  border: none; /* Remove the border if it's visible */
+}
+
+.navbar-toggler-icon {
+  width: 1.5rem; /* Adjust the size of the icon */
+  height: 1.5rem;
+}

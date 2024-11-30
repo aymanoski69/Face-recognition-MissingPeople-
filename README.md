@@ -38,15 +38,18 @@ Install the required Python libraries with:
   
   
 
-  3. Run the Application
-  Run the application using:
-    python APP.py
+  3. Run the Application : 
 
-Usage:
+  App.py : 
 
   Admin Interface:
   Click "Create Dataset" to capture images of a new user (enter a unique user ID when prompted).
   Click "Train Recognizer" to train the face recognition model using the dataset.
   User Interface:
   Click "Detect Faces" to identify individuals from a webcam feed or an uploaded image.
+
+  WebSiteMain: 
+
+  Run this if you wanna work with the website interface 
+  first run the WebSiteMain.py , then cd to Front-end folder  and run "npm start" .
 
